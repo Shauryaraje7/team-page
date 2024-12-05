@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Android Nav Bar</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar-custom">
+
+      <div class="logo-custom"><img class="logo-custom" src="assets/logo.png" alt=""></div>
+      <div class="menu-icon-custom" id="menu-icon">
+        &#9776;
+      </div>
+      <ul class="nav-links-custom" id="nav-links-first">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <hr style="border: 0; height: 2px; background-color: #333;  ">
+
+  <section class="top-page-custom">
+
+    <div class="centered-content-custom">
+      <h1>Meet the Notion Community Team</h1>
+      <p>From our guiding faculty to dynamic student teams, every member<br>
+        plays a crucial role in shaping our vibrant community.</p>
+    </div>
+
+    <div class="group-photo-custom">
+      <!-- <img class="group-photo-custom" src="assets/group photo.png" alt=""> -->
+    </div>
+
+    <div class="centered-content-custom">
+      <h1>Teams</h1>
+    </div>
+
+  </section>
+  <!-- ===============Team sections=================   -->
+  <section class="team-section-custom">
+
+
+    <div class="navbar">
+      <div class="menu-container">
+        <div class="menu-toggle">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <span class="selected-item"></span> <!-- Initially empty -->
+      </div>
+      <div class="nav-links">
+        <div class="highlighter"></div> <!-- Highlight moving rectangle -->
+        <a href="#" class="nav-item active" data-team="tech-team">Tech Team</a>
+        <a href="#" class="nav-item" data-team="operating-team">Operating Team</a>
+        <a href="#" class="nav-item" data-team="creative-team">Creative Team</a>
+        <a href="#" class="nav-item" data-team="outreach-team">Outreach Team</a>
+        <a href="#" class="nav-item" data-team="media-team">Media Team</a>
+        <a href="#" class="nav-item" data-team="content-team">Content Team</a>
+        <a href="#" class="nav-item" data-team="corporate-team">Corporate Team</a>
+      </div>
+    </div>
+  
+    <!-- Team Sections -->
+    <div id="tech-team" class="team-section" style="display:none;">
+      <div id="tech-teamContainer" class="team-container"></div>
+    </div>
+    
+    <div id="operating-team" class="team-section" style="display:none;">
+      <div id="operating-teamContainer" class="team-container"></div>
+    </div>
+    
+    <div id="creative-team" class="team-section" style="display:none;">
+  
+      <div id="creative-teamContainer"  class="team-container"></div>
+    </div>
+    
+    <div id="outreach-team" class="team-section" style="display:none;">
+    
+      <div id="outreach-teamContainer"  class="team-container"></div>
+    </div>
+    
+    <div id="media-team" class="team-section" style="display:none;">
+   
+      <div id="media-teamContainer"  class="team-container"></div>
+    </div>
+    
+    <div id="content-team" class="team-section" style="display:none;">
+    
+      <div id="content-teamContainer"  class="team-container"></div>
+    </div>
+    
+    <div id="corporate-team" class="team-section" style="display:none;">
+    
+      <div id="corporate-teamContainer"  class="team-container"></div>
+    </div>
+    
+  
+  
+  
+  
+  </section>
+
+  <script src="scripts.js"></script>
+ 
+</body>
+
+</html>
